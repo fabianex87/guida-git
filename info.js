@@ -74,6 +74,9 @@
  * git push -u origin develop (git push)
  *
  * di solito origin si fa solo la prima volta, poi si aggancia da solo
+ * viene fatto così perché il branch è stato creato in locale e non in remoto
+ * altrimenti se la branch sarebbe stato creato da remoto, ti basterebbe git push
+ * 
  * nel file di configurazione di git "config", si crea
  * 
    [branch "feature/fabian"]
