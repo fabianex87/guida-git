@@ -29,10 +29,22 @@ git pull origin master (o develop)
 per feature/nikyta, basta 
 git pull  (non è vero, cioè non si è aggiornato al fare git pull)
 
+in teoria dovrebbe aver bastato la creazione del branch dal master ma quanto 
+pare non funziona
 ================================================================================
 
-quello che bisogna fare è
+quello che bisogna fare è 
+ti sposti in feature/fab
 git pull --set-upstream origin master (no funziona con git pull -u origin master)
 in questo caso -u non funziona per il pull
 dopodiché ti basterà d'ora in poi fare solo git pull
+
+poi fai le modifiche in feature/fabian, fai il push e dal master fai il merge
+poi ti cambi a feature/fab con git checkout feature/fab
+appena ti cambi, la console ti consiglia
+Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+  quindi basta fare solo "git pull" d'ora in poi
+
 */
