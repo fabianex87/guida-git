@@ -63,4 +63,7 @@ git push origin HEAD
 
 f782b13..45f5f65  HEAD -> feature/fab
 
+ma scegliendo quello ogni volta ti consiglia la stessa cosa
+invece con 
+ git push origin HEAD:master
 */
