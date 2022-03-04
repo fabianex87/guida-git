@@ -66,4 +66,9 @@ f782b13..45f5f65  HEAD -> feature/fab
 ma scegliendo quello ogni volta ti consiglia la stessa cosa
 invece con 
  git push origin HEAD:master
-*/
+
+ti appare 
+ ti appare f82cd9d..d05482e  HEAD -> master
+
+cioè hai già modificato direttamente su master
+ */
