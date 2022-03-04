@@ -14,5 +14,16 @@ come se feature/fab non fosse stato creato dal master
 e quindi ho dovuto fare
 git pull origin master
 
+quindi, quando crei un nuovo branch, lo devi specificare da quale branch lo vai 
+a creare
 
+git checkout -b feature/fabian          : branch creato senza un padre 
+git checkout -b feature/nikyta master   : branche creato dal master
+
+pull
+per feature/fabian, devi fare sempre
+git pull origin master (o develop)
+
+per feature/nikyta, basta 
+git pull
 */
