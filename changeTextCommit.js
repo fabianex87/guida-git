@@ -10,7 +10,7 @@
  * premi a:  per scrivere/modificare il testo del commit "testo cambiato del commit"
  * scrivi :wq : serve per salvare e uscire
  * FINITO ma è in locale, infine per cambiare in remoto
- * git push --force : per fare il push sul repositori
+ * git push --force : per fare il push sul repository
  * FINO QUI HO PROVATO E FUNZIONA
  *
  *
