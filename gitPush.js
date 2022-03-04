@@ -21,4 +21,6 @@ invce con -u viene creato
 	merge = refs/heads/feature/fabian
 
 ed ecco il motivo che conviene fare -u (--set-upstream)
+che lo vedi anche dal messaggio della console
+"Branch 'feature/fab' set up to track remote branch 'feature/fab' from 'origin'."
 */
