@@ -71,7 +71,7 @@
  * merge in locale
  * mi sposto su develop
  * git merge featureBranch (copio quello di featureBranch in develop)
- * git push -u origin develop
+ * git push -u origin develop (git push)
  *
  * di solito origin si fa solo la prima volta, poi si aggancia da solo
  * nel file di configurazione di git "config", si crea
