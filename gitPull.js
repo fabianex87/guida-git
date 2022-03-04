@@ -47,4 +47,20 @@ Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
 
   quindi basta fare solo "git pull" d'ora in poi
 
+ma al fare il push, non ti permetterà perché ti consiglia:
+fatal: The upstream branch of your current branch does not match
+the name of your current branch.  To push to the upstream branch
+on the remote, use
+
+    git push origin HEAD:master
+
+To push to the branch of the same name on the remote, use
+
+    git push origin HEAD
+
+quindi ho scelto il push sullo stesso branch
+git push origin HEAD
+
+f782b13..45f5f65  HEAD -> feature/fab
+
 */
