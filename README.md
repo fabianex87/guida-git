@@ -1,6 +1,6 @@
 # _Guida Git_
 
-comandi di git
+Comandi di git
 
 # **Una piccola guida di Git**
 

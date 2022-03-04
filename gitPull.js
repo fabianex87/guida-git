@@ -20,10 +20,14 @@ a creare
 git checkout -b feature/fabian          : branch creato senza un padre 
 git checkout -b feature/nikyta master   : branche creato dal master
 
+
+================================================================================
 pull
 per feature/fabian, devi fare sempre
 git pull origin master (o develop)
 
 per feature/nikyta, basta 
-git pull
+git pull  (non è vero, cioè non si è aggiornato al fare git pull)
+
+================================================================================
 */
