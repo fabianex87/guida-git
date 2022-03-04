@@ -70,5 +70,13 @@ invece con
 ti appare 
  ti appare f82cd9d..d05482e  HEAD -> master
 
-cioè hai già modificato direttamente su master
+cioè hai già modificato direttamente su master, quindi non ce bisogno di fare il
+merge
+
+ma comunque scegliendo uno o l'altro, ti consiglia le due opzioni
+git push origin HEAD:master
+git push origin HEAD
+
+quindi non si è risolto nulla con 
+git pull --set-upstream origin master
  */
