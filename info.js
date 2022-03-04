@@ -18,6 +18,9 @@
  * git add: per aggiungere
  * git status: per vedere in quale di quei tre stati stà il tuo git
  *
+ * Guida Git
+ * https://git-scm.com/docs
+ *
  * git push:
  * git pull:
  * git clone: fai una copia
@@ -71,6 +74,12 @@
  * git push -u origin develop
  *
  * di solito origin si fa solo la prima volta, poi si aggancia da solo
+ * nel file di configurazione di git "config", si crea
+ * 
+   [branch "feature/fabian"]
+	remote = origin
+	merge = refs/heads/feature/fabian
+ * 
  * ti può dare errore se non fai il pull
  * quando lavorano su una branch diverse persone, DEVI FARE IL PULL perché se nel
  * remoto ci sono dei cambi dovuto a che qualche persona ha fatto qualche modifica
@@ -85,5 +94,10 @@
  * git commit -m "Risolve conflitto."
  * git push origin develop -u  o  git push -u origin develop
  *
+ * altre info
+ * quando fai git push, a volte ti consiglia di fare
+ * git push --set-upstream origin feature/fabian
+ * ma quello è uguale a
+ * git push -u origin feature/fabian
  *
  */
