@@ -30,4 +30,9 @@ per feature/nikyta, basta
 git pull  (non è vero, cioè non si è aggiornato al fare git pull)
 
 ================================================================================
+
+quello che bisogna fare è
+git pull --set-upstream origin master (no funziona con git pull -u origin master)
+in questo caso -u non funziona per il pull
+dopodiché ti basterà d'ora in poi fare solo git pull
 */
