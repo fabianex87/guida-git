@@ -43,7 +43,6 @@ Ti sposti nella cartella di lavoro
 - git pull: git pull dello stesso branch
 - git pull origin fabian: git pull del branch fabian
 
-
 ## Git Push
 quando crei il branch direttamente dal repository
 - git push
@@ -58,13 +57,13 @@ Quando fai  -u, nel file di configurazione di git: config (locale) o .gitconfig 
 
 ## Git Merge
 
-- git checkout master
+- git checkout develop
 - git merge fabian 
 - git push -u origin develop (git push)
 
 ## Altre Info
 ```
-* git clone	: fai una copia
+* git clone	    : fai una copia
 * git pull		: aggiornamento del tuo repository locale da remoto
 * git push		: invio delle modifiche 
 
@@ -72,8 +71,7 @@ Quando fai  -u, nel file di configurazione di git: config (locale) o .gitconfig 
 * git add -A   : simile a git add . ma in questo caso mette tutto anche al commit
 * git commit   : fa una specie di foto e lo mette nel header
 * git log      : lista di tutti i commit
-* git checkout bbce9131012384ef15c2e3af406b8000cf0465e1: ti permette di andare
-* a quel commit
+* git checkout bbce9131012384ef15c2e3af406b8000cf0465e1: ti permette di andare a quel commit
 * git ignore   : tutti i file che non saranno versionati (per es: token)
 ```
 

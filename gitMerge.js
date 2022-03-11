@@ -1,8 +1,8 @@
 /**
  * Merge in locale
  * mi sposto sul branch a cui devo fare il merge
- * quindi mi sposto su master 
- * git checkout master
+ * quindi mi sposto su develop 
+ * git checkout develop
  * git merge fabian 
  * git push -u origin develop (git push)
  *
