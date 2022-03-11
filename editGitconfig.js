@@ -1,8 +1,13 @@
 /**
- *
- * modifica del file gitconfig in locale e globale
- *
  * git init
+ * 
+ *  modifica del file gitconfig in locale e globale
+ * 
+ * config       : file di configurazione locale
+ * .gitconfig   : file di configurazione globale
+ *
+ *
+ * 
  *
  * ================================= LOCALE ====================================
  * dal prompt dei comandi

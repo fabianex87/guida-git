@@ -15,7 +15,7 @@ git push origin feature/fabian
 ogni volta che fai git push, ti chiederà di fare git push --set-upstream
 questo è dovuto a che bel file config, non viene creato la tua nuova branch
 
-invce con -u viene creato
+invece con -u viene creato
 [branch "feature/fab"]
 	remote = origin
 	merge = refs/heads/feature/fabian

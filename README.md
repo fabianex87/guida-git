@@ -38,3 +38,31 @@ fai le tue modifiche
 
 **in remoto** (nel tuo git): git push origin --delete branch_name
 
+# Guida Git
+
+  - [Git Push](#git-push)
+  - [Git Pull](#git-pull)
+  - [Git Merge](#git-merge)
+
+## Git Pull
+- git pull: git pull dello stesso branch \
+- git pull origin fabian: git pull del branch fabian
+
+
+## Git Push
+quando crei il branch direttamente dal repository
+- git push
+quando crei il branch in locale
+- git push -u origin fabian: con -u, solo fai la prima volta, dopo solo git push
+
+Quando fai  -u, nel file di configurazione di git: config (locale) o .gitconfig (globale) viene aggiunto
+
+[branch "fabian"]
+	remote = origin
+	merge = refs/heads/fabian
+
+## Git Merge
+
+- git checkout master
+- git merge fabian 
+- git push -u origin develop (git push)
