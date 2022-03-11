@@ -63,7 +63,7 @@ Quando fai  -u, nel file di configurazione di git: config (locale) o .gitconfig 
 - git push -u origin develop (git push)
 
 ## Altre Info
-```javascript
+```
 * git clone	: fai una copia
 * git pull		: aggiornamento del tuo repository locale da remoto
 * git push		: invio delle modifiche 
@@ -74,7 +74,7 @@ Quando fai  -u, nel file di configurazione di git: config (locale) o .gitconfig 
 * git log      : lista di tutti i commit
 * git checkout bbce9131012384ef15c2e3af406b8000cf0465e1: ti permette di andare
 * a quel commit
-* git ignore   : tutti i file che non saranno versionti (per es: token)
+* git ignore   : tutti i file che non saranno versionati (per es: token)
 ```
 
 ### **_Elimina un ramo in locale e in remoto_**
