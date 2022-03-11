@@ -21,9 +21,9 @@
  * Guida Git
  * https://git-scm.com/docs
  *
- * git push:
- * git pull:
- * git clone: fai una copia
+ * git clone	: fai una copia
+ * git pull		: aggiornamento del tuo repository locale da remoto
+ * git push		: invio delle modifiche 
  *
  * git add .    : mette tutto in staging area
  * git add -A   : simile a git add . ma in questo caso mette tutto anche al commit

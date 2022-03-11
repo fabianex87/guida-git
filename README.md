@@ -1,8 +1,4 @@
-# _Guida Git_
-
-Comandi di git
-
-# **Una piccola guida di Git**
+# **Piccola Guida Git**
 
 ## Due modi per creare iniziare con il rrepo in github o gitlab
 
@@ -24,28 +20,27 @@ Crei il progetto in Github con README.md
 Ti sposti nella cartella di lavoro
 * git init
 * git clone urlRepositoryGit
-
-ti sposti nella cartella creata al fare il clone,
-fai le tue modifiche
+* cd nameRepository
 * git add -A (git add .)
 * git commit -m "First commit."
 * git checkout -b feature/fabian
-* git push origin feature/fabian
+* git push origin feature/fabian 
 
-### **_Elimina un ramo in locale e in remoto_**
 
-**in locale** (nel tuo pc) : git branch -d branch_name
+# **_Guida Git_**
 
-**in remoto** (nel tuo git): git push origin --delete branch_name
-
-# Guida Git
-
-  - [Git Push](#git-push)
+  - [Git Clone](#git-clone)
   - [Git Pull](#git-pull)
+  - [Git Push](#git-push)
   - [Git Merge](#git-merge)
+  - [Altre Info](#altre-info)
+
+
+## Git Clone
+- git clone https://github.com/fabianex87/guida-git.git
 
 ## Git Pull
-- git pull: git pull dello stesso branch \
+- git pull: git pull dello stesso branch
 - git pull origin fabian: git pull del branch fabian
 
 
@@ -66,3 +61,24 @@ Quando fai  -u, nel file di configurazione di git: config (locale) o .gitconfig 
 - git checkout master
 - git merge fabian 
 - git push -u origin develop (git push)
+
+## Altre Info
+```javascript
+* git clone	: fai una copia
+* git pull		: aggiornamento del tuo repository locale da remoto
+* git push		: invio delle modifiche 
+
+* git add .    : mette tutto in staging area
+* git add -A   : simile a git add . ma in questo caso mette tutto anche al commit
+* git commit   : fa una specie di foto e lo mette nel header
+* git log      : lista di tutti i commit
+* git checkout bbce9131012384ef15c2e3af406b8000cf0465e1: ti permette di andare
+* a quel commit
+* git ignore   : tutti i file che non saranno versionti (per es: token)
+```
+
+### **_Elimina un ramo in locale e in remoto_**
+
+**in locale** (nel tuo pc) : git branch -d branch_name
+
+**in remoto** (nel tuo git): git push origin --delete branch_name
