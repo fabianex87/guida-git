@@ -75,6 +75,23 @@ Quando fai  -u, nel file di configurazione di git: config (locale) o .gitconfig 
 * git ignore   : tutti i file che non saranno versionati (per es: token)
 ```
 
+### Altre Info
+** annullare l'ultimo commit senza aver pushato **
+```
+git reset HEAD~ : te lo togli dallo stage
+git reset HEAD^1 = git reset HEAD~
+Pluging Git: clic nei 3 puntini (View and More Actions)/Commit/Undo Last Commit: te lo inserisce nello stage
+Pluging GitLens: commits; ti appare il nome del commit o fai clic nella freccia di indietro o clic destro "Undo commit"
+```
+
+** annullare dal penultimo commit senza aver pushato **
+```
+git reset HEAD~2 : annulla dal penultimo (due commit) committ e lo togli dallo stage
+git reset HEAD^2 = non funziona questo commando
+Commit/Undo Last Commit: fai due volte
+Pluging GitLens: commits; fai due volte "Undo commit"
+```
+
 ### **_Elimina un ramo in locale e in remoto_**
 
 **in locale** (nel tuo pc) : git branch -d branch_name
