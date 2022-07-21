@@ -5,7 +5,7 @@ master
  - feature/fab 
 
 ho fatto diverse modifiche e ho pushato
-per esmepio ho fatto l'ultima modiifca su feature/fab e l'ho mergiato al master
+per esempio ho fatto l'ultima modifica su feature/fab e l'ho mergiato al master
 
 adesso switcho a feature/fabian 
 e faccio git pull ma me ne sono reso conto che non si porta le ultime modifiche 
