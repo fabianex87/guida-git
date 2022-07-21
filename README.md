@@ -70,6 +70,7 @@ Quando fai  -u, nel file di configurazione di git: config (locale) o .gitconfig 
 * git reset     : per annullare il commit senza aver fatto il push ma non ti rimane nella cronologia
 * git revet     : per annullare il commi senza aver fatto il push t ma ti rimane nella cronologia
 * git commit ammend : per aggiungere un file allo stesso commit sempre e quando ancora non l'hai pushato
+* git stash     : per salvare le modifiche temporaneo per poi riprendero per continuare a lavorare
 
 * git add .    : mette tutto in staging area
 * git add -A   : simile a git add . ma in questo caso mette tutto anche al commit
@@ -78,6 +79,7 @@ Quando fai  -u, nel file di configurazione di git: config (locale) o .gitconfig 
 * git checkout bbce9131012384ef15c2e3af406b8000cf0465e1: ti permette di andare a quel commit
 * git ignore   : tutti i file che non saranno versionati (per es: token)
 * git reflog   : ti fa vedere tutti i movimenti (spostamenti di branch, tutte le operazioni di git etc etc) 
+* git branch -a: per vedere tutti i branch locale e remoto
 
 git gc: per cancellare i commits dal disco duro
 ma per cancellare i commits ci devono essere alcune condizioni:
