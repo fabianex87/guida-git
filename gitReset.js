@@ -1,6 +1,6 @@
 /*
 
-git reset viene utilizzato se hai fatto il commit ma non hai pushato
+git reset viene utilizzato se hai fatto il commit senza aver pushato e non ti rimane nella cronologia
 ci sono due tipi:
 
 con hard: ti annulla il commit e non ti mantiene le modifiche che si è fatto sui files
@@ -24,4 +24,6 @@ git reset HEAD~2 :
 git reset HEAD^^
 
 e così successivamente
+
+git reset <commit_da_resettare>
 */
