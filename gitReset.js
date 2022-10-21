@@ -1,6 +1,6 @@
 /*
 
-git reset viene utilizzato se hai fatto il commit ma non hai pushato
+git reset viene utilizzato se hai fatto il commit senza aver pushato e non ti rimane nella cronologia
 ci sono due tipi:
 
 con hard: ti annulla il commit e non ti mantiene le modifiche che si è fatto sui files
