@@ -68,8 +68,9 @@ Quando fai  -u, nel file di configurazione di git: config (locale) o .gitconfig 
 * git push		: invio delle modifiche 
 
 * git reset HEAD~1    : per annullare il commit senza aver fatto il push ma non ti rimane nella cronologia
-* git revert HEAD^^    : per annullare il penultimo commit senza aver fatto il push ma ti rimane nella cronologia
-* git commit ammend : per aggiungere un file allo stesso commit sempre e quando ancora non l'hai pushato
+* git revert HEAD^^   : per annullare il penultimo commit senza aver fatto il push ma ti rimane nella cronologia
+* git commit --amend : per aggiungere un file allo stesso commit o modificare l'ultimo commit sempre e quando ancora non l'hai pushato
+* git commit --amend -m "Nuovo commento che sostitusice a quello precedente": modifica la descrizione dell'ultimo commit se ancora non è stato pushato
 * git stash     : per salvare le modifiche temporaneo per poi riprendero per continuare a lavorare
 
 * git add .    : mette tutto in staging area

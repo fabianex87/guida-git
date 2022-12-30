@@ -27,3 +27,4 @@ e così successivamente
 
 git reset <commit_da_resettare>
 */
+
