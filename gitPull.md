@@ -1,4 +1,3 @@
-/*
 
 master
  - feature/fabian 
@@ -79,4 +78,4 @@ git push origin HEAD
 
 quindi non si è risolto nulla con 
 git pull --set-upstream origin master
- */
+

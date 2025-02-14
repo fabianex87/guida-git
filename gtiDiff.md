@@ -1,4 +1,4 @@
-/*
+
 
 per vedere le differenze tra un branch locale e un branch remoto
   feature/fab
@@ -14,5 +14,3 @@ git diff nomeBranch1 nomeBranch2
 
 quindi per vedere la differenza 
 git diff master origin/feature/fabian
-
-*/

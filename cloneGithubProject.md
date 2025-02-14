@@ -1,4 +1,4 @@
-/*
+
 pasos:
 1) git init (carpeta donde quieres alojar tu proyecto)
 2)git remote add origin urlDeTuProyectoGitHub master
@@ -8,4 +8,3 @@ una vez ahi, creas una rama igual a la que tienes en tu proyecto y te me mueves 
 5) git commit -m "First commit blablabla."
 6) git push origin nombreDeTuRamaCreada
  
-*/

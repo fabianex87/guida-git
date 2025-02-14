@@ -1,4 +1,3 @@
-/*
 
 quando si crea il branch in locale e fai
 git add . 
@@ -23,4 +22,4 @@ invece con -u viene creato
 ed ecco il motivo che conviene fare -u (--set-upstream)
 che lo vedi anche dal messaggio della console
 "Branch 'feature/fab' set up to track remote branch 'feature/fab' from 'origin'."
-*/
+

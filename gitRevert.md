@@ -1,4 +1,3 @@
-/*
 
 git revert viene utilizzato se hai fatto il commit senza aver pushato e ti rimane nella cronologia
 
@@ -14,4 +13,4 @@ git revert HEAD^^
 git revert <commit_da_revertare>
 
 e così successivamente
-*/
+

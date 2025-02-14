@@ -1,4 +1,3 @@
-/*
 
 git reset viene utilizzato se hai fatto il commit senza aver pushato e non ti rimane nella cronologia
 ci sono due tipi:
@@ -26,5 +25,5 @@ git reset HEAD^^
 e così successivamente
 
 git reset <commit_da_resettare>
-*/
+
 
